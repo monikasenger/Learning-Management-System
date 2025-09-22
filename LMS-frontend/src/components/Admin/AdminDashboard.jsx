@@ -18,7 +18,7 @@ const AdminDashboard = () => {
     { title: "Total Students", value: students, icon: <Users size={36} />, color: "bg-blue-500" },
     { title: "Total Instructors", value: instructors, icon: <UserCheck size={36} />, color: "bg-green-500" },
     { title: "Pending Courses", value: pendingCourses.length, icon: <BookOpen size={36} />, color: "bg-purple-500" },
-    { title: "Assignments Pending", value: 12, icon: <FileText size={36} />, color: "bg-pink-500" }, // example static value
+
   ];
 
   return (
@@ -59,3 +59,4 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+

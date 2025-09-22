@@ -12,8 +12,8 @@ export const InstructorProvider = ({ children }) => {
   const [lessons, setLessons] = useState([]);
   const [students, setStudents] = useState([]);
   const [assignments, setAssignments] = useState([]);
-  const [submissions, setSubmissions] = useState([]); // ✅ NEW
-  const [studentAssignments, setStudentAssignments] = useState([]); // ✅ NEW
+  const [submissions, setSubmissions] = useState([]); 
+  const [studentAssignments, setStudentAssignments] = useState([]); 
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -374,3 +374,4 @@ const fetchSubmissionsByAssignment = async (assignmentId) => {
     </InstructorContext.Provider>
   );
 };
+

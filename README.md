@@ -5,8 +5,8 @@ A modern **Learning Management System (LMS)** built with **React, Node.js, Expre
 ---
 ## 🚀 Deployment
 
-- **Frontend (Render):** [fontend](https://learning-management-system-uwzy.onrender.com)
-- **Backend (Render):** [backend](https://learning-management-system-0013.onrender.com)
+- **Frontend (Render):** [fontend](https://learning-management-system-0013.onrender.com)
+- **Backend (Render):** [backend](https://trendbazar.onrender.com)
 
 ---
 
